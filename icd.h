@@ -137,7 +137,7 @@ void khrIcdContextPropertiesGetPlatform(
     cl_platform_id *outPlatform);
 
 // internal tracing macros
-#if 0
+#if 1
     #include <stdio.h>
     #define KHR_ICD_TRACE(...) \
     do \
